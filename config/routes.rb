@@ -1,4 +1,4 @@
 PluginAuthentication::Engine.routes.draw do
-  devise_for :users, class_name: "PluginAuthentication::User"
+  devise_for :users
   root 'home#index'
 end
