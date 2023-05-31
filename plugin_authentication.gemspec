@@ -26,6 +26,6 @@ Gem::Specification.new do |spec|
   spec.add_dependency "devise", ">= 4.9.2"
   spec.add_dependency "omniauth", '>= 1.6.1'
   spec.add_dependency "omniauth-google-oauth2", '1.0.0'
-  spec.add_dependency "omniauth-rails_csrf_protection", '>= 1.0.1'
+  # spec.add_dependency "omniauth-rails_csrf_protection", '>= 1.0.1'
   spec.add_dependency "dotenv-rails"
 end
