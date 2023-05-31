@@ -8,7 +8,7 @@ class PluginAuthentication::Users::OmniauthCallbacksController < Devise::Omniaut
   # def twitter
   # end
 
-  skip_before_action :verify_authenticity_token
+  # skip_before_action :verify_authenticity_token
 
   def google_oauth2
     user = PluginAuthentication::User.from_omniauth(auth)
