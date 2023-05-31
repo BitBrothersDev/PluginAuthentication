@@ -4,7 +4,7 @@ PATH
     plugin_authentication (0.1.0)
       devise (>= 4.9.2)
       dotenv-rails
-      omniauth (>= 1.6.1)
+      omniauth (>= 2.1.1)
       omniauth-google-oauth2 (>= 1.1.1)
       omniauth-rails_csrf_protection (>= 1.0.1)
       rails (>= 7.0.5)
