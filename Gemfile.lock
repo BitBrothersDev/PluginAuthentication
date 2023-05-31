@@ -2,10 +2,10 @@ PATH
   remote: .
   specs:
     plugin_authentication (0.1.0)
-      devise (= 4.8.1)
+      devise
       dotenv-rails
-      omniauth (= 1.9.1)
-      omniauth-google-oauth2 (< 0.8.0)
+      omniauth
+      omniauth-google-oauth2
       rails (>= 7.0.5)
 
 GEM
