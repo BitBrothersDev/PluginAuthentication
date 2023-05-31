@@ -12,5 +12,13 @@ gem "sprockets-rails"
 
 gem 'devise'
 
+gem 'omniauth'
+
+gem 'omniauth-google-oauth2'
+
+gem 'omniauth-rails_csrf_protection'
+
+gem "dotenv-rails"
+
 # Start debugger with binding.b [https://github.com/ruby/debug]
 # gem "debug", ">= 1.0.0"
